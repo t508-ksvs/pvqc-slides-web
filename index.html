@@ -648,8 +648,8 @@ h2 { font-size: var(--subtitle); font-weight: 700; line-height: 1.3; margin-bott
       </div>
       <div class="motive-card" onclick="selectMotive(this,3)" tabindex="0" role="button" aria-pressed="false">
         <div class="motive-icon">🌍</div>
-        <div class="motive-title">Ivy Cup 補助</div>
-        <div class="motive-desc">全國冠軍可免費代表台灣參加常春藤盟校國際口語大賽</div>
+        <div class="motive-title">PVQC 證書標準</div>
+        <div class="motive-desc">達 Specialist Tier 1：總分 ≥ 350，且單項 ≥ 70 分</div>
       </div>
     </div>
     <div id="motive-result" aria-live="polite" style="opacity:0;">請點選上方任一理由，看詳細說明</div>
@@ -683,7 +683,7 @@ h2 { font-size: var(--subtitle); font-weight: 700; line-height: 1.3; margin-bott
       <div>
         <div class="info-box success" style="margin-bottom:12px;">
           <div style="font-weight:700;margin-bottom:6px;">🌐 官方網站</div>
-          <div style="font-size:0.85rem;word-break:break-all;">sites.google.com/view/ntseccompetition/</div>
+          <div style="font-size:0.85rem;word-break:break-all;"><a href="https://sites.google.com/view/ntseccompetition/" target="_blank" rel="noopener" style="color:var(--primary);text-decoration:underline;">sites.google.com/view/ntseccompetition/</a></div>
         </div>
         <div class="info-box gold">
           <div style="font-weight:700;margin-bottom:8px;">🎯 三大核心理念</div>
@@ -941,7 +941,7 @@ h2 { font-size: var(--subtitle); font-weight: 700; line-height: 1.3; margin-bott
           </div>
           <div class="card">
             <div style="font-size:0.8rem;color:var(--text-dim);margin-bottom:6px;">特別獎勵</div>
-            <div style="font-size:0.9rem;line-height:1.7;"><strong class="secondary-text">各科冠軍</strong>獲免費補助<br>參加 Ivy Cup 常春藤<br>國際口語大賽初賽 🌍</div>
+            <div style="font-size:0.9rem;line-height:1.7;"><strong class="secondary-text">成績達標者</strong><br>總分 ≥ 350，單項 ≥ 70 分<br>獲 PVQC 國際認證 🎯</div>
           </div>
         </div>
       </div>
@@ -1014,7 +1014,7 @@ h2 { font-size: var(--subtitle); font-weight: 700; line-height: 1.3; margin-bott
             <div class="step-num">1</div>
             <div class="step-body">
               <div class="step-title">📥 下載字表 & 軟體</div>
-              <div class="step-detail">至官網下載「科學專業英文(化學).pdf」字表<br>下載 PVQC Lite 版練習軟體（免帳號密碼）<br>或手機搜尋「PVQC科學」APP安裝</div>
+              <div class="step-detail">至官網 <a href="https://sites.google.com/view/ntseccompetition/%E5%B0%88%E6%A5%AD%E8%8B%B1%E6%96%87%E5%AD%B8%E7%BF%92%E8%B3%87%E6%BA%90/%E7%9B%B8%E9%97%9C%E6%95%99%E6%9D%90" target="_blank" style="color:var(--primary);text-decoration:underline;">下載「科學專業英文(化學).pdf」字表</a><br><a href="https://sites.google.com/view/ntseccompetition/ruan-ti-xia-zai-qu" target="_blank" style="color:var(--primary);text-decoration:underline;">下載 PVQC Lite 版練習軟體</a>（免帳號密碼）<br>或手機搜尋「PVQC科學」APP安裝</div>
             </div>
           </div>
           <div class="step-item" onclick="toggleStep(this)" tabindex="0" role="button" aria-expanded="false">
@@ -1126,7 +1126,7 @@ h2 { font-size: var(--subtitle); font-weight: 700; line-height: 1.3; margin-bott
           <div class="contact-card">
             <div class="contact-icon">🌐</div>
             <div class="contact-label">官方網站</div>
-            <div class="contact-val" style="font-size:0.75rem;">sites.google.com/view/<br>ntseccompetition/</div>
+            <div class="contact-val" style="font-size:0.75rem;"><a href="https://sites.google.com/view/ntseccompetition/" target="_blank" style="color:var(--primary);text-decoration:underline;">sites.google.com/view/<br>ntseccompetition/</a></div>
           </div>
           <div class="contact-card">
             <div class="contact-icon">📧</div>
@@ -1145,7 +1145,7 @@ h2 { font-size: var(--subtitle); font-weight: 700; line-height: 1.3; margin-bott
           </div>
         </div>
         <div class="info-box gold" style="margin-top:12px;font-size:0.85rem;text-align:center;">
-          🏆 最後提醒：完全免費！大膽報名，你沒有損失，只有收穫。加油！
+          🏆 最後提醒：完全免費！但因佔用學校報名名額，請準備充分再來挑戰。替自己增強專業單字能力，還可以獲得英文檢定證書。加油！
         </div>
       </div>
     </div>
@@ -1175,7 +1175,7 @@ const status = document.getElementById("status");
 const tlDetails = [
   "🔴 <strong>報名截止日：11月27日（週五）</strong><br>所有報名動作必須在此日期前完成。請你的指導老師確認已填寫官方 Google 報名表單。",
   "🏁 <strong>南區區決賽：12月19日（週六）</strong><br>📍 地點：正修科技大學（高雄市鳥松區澄清路840號）<br>🎧 必備有線耳機，攜帶准考證 + 學生證，考試中手機請靜音！",
-  "🥇 <strong>全國總決賽：116年3月20日（週六）</strong><br>資格：南區區決賽前三名晉級。<br>加考：測驗一（拼寫 Spelling，限時20分鐘）。<br>冠軍可獲免費補助參加 Ivy Cup 常春藤國際口語大賽！"
+  "🥇 <strong>全國總決賽：116年3月20日（週六）</strong><br>資格：南區區決賽前三名晉級。<br>加考：測驗一（拼寫 Spelling，限時20分鐘）。<br>達標者可獲頒 PVQC 專業英文國際認證證書！"
 ];
 
 /* ===== NAVIGATION ===== */
@@ -1226,7 +1226,7 @@ const motiveTexts = [
   "🎓 <strong>升學加分</strong>：PVQC 科學專業英文認證可登錄教育部「高級中等學校學生學習歷程資料庫」，是申請大學的有力佐證！",
   "🆓 <strong>完全免費</strong>：報名費 0 元、檢測費 0 元！零風險嘗試，就算只是想體驗比賽氛圍也完全值得。",
   "🏆 <strong>有機會獲獎</strong>：個人前三名獎狀 + 金腦獎（成績前20%），指導你的老師也會獲頒「指導獎」喔！",
-  "🌍 <strong>Ivy Cup 補助</strong>：全國總決賽化學科冠軍，可獲大會<strong>免費補助</strong>參加 Ivy Cup 常春藤盟校國際口語大賽初賽，走向世界舞台！"
+  "🎯 <strong>PVQC 證書標準</strong>：達 PVQC – A2 指標 Specialist Tier 1，通過標準為總分達 350 分(含)以上，且單項測驗成績不低於 70 分！"
 ];
 function selectMotive(el, idx) {
   document.querySelectorAll(".motive-card").forEach(c => {
