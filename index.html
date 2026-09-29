@@ -649,7 +649,7 @@ h2 { font-size: var(--subtitle); font-weight: 700; line-height: 1.3; margin-bott
       <div class="motive-card" onclick="selectMotive(this,3)" tabindex="0" role="button" aria-pressed="false">
         <div class="motive-icon">🌍</div>
         <div class="motive-title">PVQC 證書標準</div>
-        <div class="motive-desc">達 Specialist Tier 1：總分 ≥ 350，且單項 ≥ 70 分</div>
+        <div class="motive-desc">達 Specialist Tier 1：總分 ≥ 350，單項 ≥ 70 分<br><span style="font-size:0.75rem;color:var(--text-dim);">([對應CEFR A2 等級]=GEPT初級)</span></div>
       </div>
     </div>
     <div id="motive-result" aria-live="polite" style="opacity:0;">請點選上方任一理由，看詳細說明</div>
@@ -1226,7 +1226,7 @@ const motiveTexts = [
   "🎓 <strong>升學加分</strong>：PVQC 科學專業英文認證可登錄教育部「高級中等學校學生學習歷程資料庫」，是申請大學的有力佐證！",
   "🆓 <strong>完全免費</strong>：報名費 0 元、檢測費 0 元！零風險嘗試，就算只是想體驗比賽氛圍也完全值得。",
   "🏆 <strong>有機會獲獎</strong>：個人前三名獎狀 + 金腦獎（成績前20%），指導你的老師也會獲頒「指導獎」喔！",
-  "🎯 <strong>PVQC 證書標準</strong>：達 PVQC – A2 指標 Specialist Tier 1，通過標準為總分達 350 分(含)以上，且單項測驗成績不低於 70 分！"
+  "🎯 <strong>PVQC 證書標準</strong>：達 PVQC – A2 指標 Specialist Tier 1，通過標準為總分達 350 分(含)以上，且單項測驗成績不低於 70 分！([對應CEFR A2 等級]=GEPT初級)"
 ];
 function selectMotive(el, idx) {
   document.querySelectorAll(".motive-card").forEach(c => {
